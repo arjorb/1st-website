@@ -1,0 +1,161 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+     background-color: #eee;
+
+}
+.container{
+     width: 80%;
+     margin: auto;
+}
+
+header{
+     background-color: #37424b;
+     font-family: Arial, Helvetica, sans-serif;
+     min-height: 70px;
+     border-bottom: 3px solid #d53d24;
+}
+header h1{
+     float: left;
+     padding: 10px;
+     color: #eee;
+}
+header #unique{
+     color:#d53d24;
+
+}
+
+header ul{
+     list-style: none;
+    
+}
+
+header li{
+     float: left;
+     display: inline;
+     padding-top: 25px;
+}
+
+header nav{
+     float: right;
+}
+header a{
+     text-decoration: none;
+     color: white;
+     padding: 0px 7px;
+     font-size: 18px;
+}
+header a:hover{
+     color: #d53d24;
+}
+#branding{
+     background-image: url('images/computer.jpeg');
+     background-repeat: none;
+     background-position: center center;
+     min-height: 400px;
+}
+
+#branding h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     font-size: 28px;
+     color: white;
+     text-align: center;
+     padding-top: 150px;
+}
+
+#branding p{
+     color: white;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     padding: 10px;
+}
+#newsletter{
+     background-color: #37424b;
+     min-height: 70px;
+}
+
+#newsletter h3{
+     color: white;
+     float: left;
+     font-weight: bold;
+     padding-top: 20px;
+     font-family:Arial, Helvetica, sans-serif; 
+}
+
+#newsletter input{
+    float:left;
+    display: inline;
+    margin-top: 15px; 
+    padding: 10px;
+    margin-right: 5px;
+    
+}
+#newsletter #right{
+     float: right;
+}
+#newsletter input[type='text']{
+     width: 250px;
+     border: 0px;
+
+}
+
+#newsletter input[type='submit']{
+     background-color: #da3b20;
+     border: 0px;
+     padding-left:20px;
+     padding-right: 20px; 
+     margin-top: 15px;
+     font-weight: bold;
+     color: white;
+}
+#html img{
+     width: 100px;
+     height: 100px;     
+}
+#html .box{
+     float:left;
+     width: 30%;
+     margin-right: 20px;  
+}
+
+footer{
+     float: left;
+}
+
+/* <!--Media querry--> */
+
+@media(max-width:776px){
+    header #branding
+   {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding: 30px;
+    }
+    #newsletter{
+        padding: 60px;
+        padding-top: 10px;
+        line-height: 0px;
+     
+    }
+    #newsletter input[type='submit']{
+        width: 270px;
+       
+    }
+    #html .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
